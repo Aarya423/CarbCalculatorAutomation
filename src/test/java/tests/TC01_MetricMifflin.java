@@ -48,7 +48,7 @@ public class TC01_MetricMifflin extends BaseTest {
             // CLOSE Settings so next test starts clean
             driver.findElement(By.cssSelector("#ccsettingtitle a")).click();
 
-            // Wait a moment for result to appear (optional, add explicit wait if needed)
+            // Wait a moment for result to appear
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {

@@ -34,7 +34,7 @@ public class TC02_MetricKatch extends BaseTest {
             // Enter Body Fat %
             WebElement bodyFat = driver.findElement(By.name("cfatpct"));
             bodyFat.clear();
-            bodyFat.sendKeys("20");
+            bodyFat.sendKeys("28");
 
             // Click Calculate
             driver.findElement(By.cssSelector("input[name='x']")).click();

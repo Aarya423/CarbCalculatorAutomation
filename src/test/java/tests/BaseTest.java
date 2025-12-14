@@ -19,14 +19,14 @@ public class BaseTest {
         Logger.getLogger("io.netty").setLevel(Level.OFF);
         System.setProperty("webdriver.edge.silentOutput", "true");
 
-        // Use your locally downloaded EdgeDriver
+        // Using locally downloaded EdgeDriver
         System.setProperty("webdriver.edge.driver",
                 "C:\\Users\\aarya\\Downloads\\edgedriver_win64\\msedgedriver.exe");
 
         driver = new EdgeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        driver.get("https://www.calculator.net/carbohydrate-calculator.html"); // Replace with your calculator URL
+        driver.get("https://www.calculator.net/carbohydrate-calculator.html");
     }
 
     public static void tearDown() {

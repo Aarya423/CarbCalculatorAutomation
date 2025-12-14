@@ -18,7 +18,7 @@ public class TC03_USMifflin extends BaseTest {
             age.clear();
             age.sendKeys("40");
 
-            // Gender (click LABEL, not radio input)
+            // Gender
             WebElement maleLabel = driver.findElement(By.cssSelector("label[for='csex1']"));
             ((JavascriptExecutor) driver).executeScript("arguments[0].click();", maleLabel);
 
@@ -38,7 +38,7 @@ public class TC03_USMifflin extends BaseTest {
             activity.selectByValue("1.9");
 
 
-            // Open settings (click the <a>, not the div)
+            // Open settings
             driver.findElement(By.cssSelector("#ccsettingtitle a")).click();
 
             // Select Mifflin

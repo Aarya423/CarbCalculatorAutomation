@@ -16,7 +16,7 @@ public class TC13_NegativeAge extends BaseTest {
             // Click Calculate
             driver.findElement(By.cssSelector("input[name='x']")).click();
 
-            // Locate error message by text (robust approach)
+            // Locate error message by text
             WebElement errorMessage = driver.findElement(
                     By.xpath("//font[contains(text(),'Please provide an age between')]")
             );
