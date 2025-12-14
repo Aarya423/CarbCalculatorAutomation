@@ -30,11 +30,17 @@ Test results are updated automatically in the Excel sheet on the Automation shee
 
 ## Project Structure
 CarbCalculatorAutomation/
+
 ├─ src/main/java/utils/ExcelUtils.java # Excel helper
+
 ├─ src/test/java/tests/BaseTest.java # Setup and reusable methods
+
 ├─ src/test/java/tests/TestRunner.java # Runs all automated tests
+
 ├─ Carb_Calculator_Test_Document_Aarya_Patel.xlsx # Test cases
+
 ├─ pom.xml # Maven dependencies
+
 └─ README.md # This file
 
 ### Prerequisites
